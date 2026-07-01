@@ -1,0 +1,50 @@
+canonical_identifier: bkk:krp/KR5i0075/v1
+canonical_location: https://kanripo.org/bkk/KR5i0075/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 心傳述證錄
+  identifiers:
+    alt_id:
+    - JY245
+  date: '2015-08-29 17:56:33.100257'
+  source:
+    repository: kanripo
+    path: KR5i0075
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  base_edition: CK-KZ
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: CK-KZ
+  label: 【重刊道藏輯要】
+- short: CK-KZ-jye
+- short: YP-C
+  label: 【原版道藏輯要】
+- short: KR5i0075
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0075_001.yaml, hash: 'sha256:bce044f4cdbcffd6a736933a8154d7fa299472cb224269bc868ecec22a44f5c5'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0075_001.markers.yaml, hash: 'sha256:a5fc3ef553a88723436a66c7b2e4f6a27ec7b036dd0a8a0bf52587774dd8ee88'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0075_01p001a
+    span:
+    - body
+    - 0
+    - 12606
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:4f3590a33eea18f24853ee7c4a787aabb6a866d1dcda5a01356344e85aaa0dd7
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

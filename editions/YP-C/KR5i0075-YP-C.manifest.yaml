@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0075/YP-C/v1
+canonical_location: https://kanripo.org/bkk/KR5i0075/YP-C/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 心傳述證錄
+  date: '2015-08-29 17:56:33.100257'
+  source:
+    repository: kanripo
+    path: KR5i0075
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: YP-C
+    label: 【原版道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0075_001-YP-C.yaml, hash: 'sha256:e36218417c297cf7bc278a8bd87bdfd62f79da4a98aa3db0ae092d1ff2a9e9f8'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0075_001-YP-C.markers.yaml, hash: 'sha256:7bf28465dd3ffe397215a76dcd0ee7621f985399c242f8935d183ee07f699c27'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: YP-C_KR5i0075_23guiji-07-0002a
+    span:
+    - body
+    - 0
+    - 12612
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:f95dbfa4a2a6bf2c58feca10cb74b74042847c978533d56104e84b51420cb82d
